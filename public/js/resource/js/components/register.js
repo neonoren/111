@@ -1017,7 +1017,7 @@ var render = function () {
                       type: "text",
                       name: "name",
                       id: "name",
-                      placeholder: "Enter name",
+                      placeholder: "Введи имя",
                     },
                     domProps: { value: _vm.user.name },
                     on: {
@@ -1055,7 +1055,7 @@ var render = function () {
                       type: "text",
                       name: "email",
                       id: "email",
-                      placeholder: "Enter Email",
+                      placeholder: "Введи почту",
                     },
                     domProps: { value: _vm.user.email },
                     on: {
@@ -1093,7 +1093,7 @@ var render = function () {
                       type: "password",
                       name: "password",
                       id: "password",
-                      placeholder: "Enter Password",
+                      placeholder: "Пароль",
                     },
                     domProps: { value: _vm.user.password },
                     on: {
@@ -1114,7 +1114,7 @@ var render = function () {
                       staticClass: "font-weight-bold",
                       attrs: { for: "password_confirmation" },
                     },
-                    [_vm._v("Повторить пароль")]
+                    [_vm._v("Еще раз пароль")]
                   ),
                   _vm._v(" "),
                   _c("input", {
@@ -1131,7 +1131,7 @@ var render = function () {
                       type: "password_confirmation",
                       name: "password_confirmation",
                       id: "password_confirmation",
-                      placeholder: "Enter Password",
+                      placeholder: "Пароль",
                     },
                     domProps: { value: _vm.user.password_confirmation },
                     on: {

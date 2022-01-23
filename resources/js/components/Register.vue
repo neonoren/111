@@ -9,19 +9,19 @@
                         <form action="javascript:void(0)" @submit="register" class="row" method="post">
                             <div class="form-group col-12">
                                 <label for="name" class="font-weight-bold">Имя</label>
-                                <input type="text" name="name" v-model="user.name" id="name" placeholder="Enter name" class="form-control">
+                                <input type="text" name="name" v-model="user.name" id="name" placeholder="Введи имя" class="form-control">
                             </div>
                             <div class="form-group col-12">
                                 <label for="email" class="font-weight-bold">Почта</label>
-                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
+                                <input type="text" name="email" v-model="user.email" id="email" placeholder="Введи почту" class="form-control">
                             </div>
                             <div class="form-group col-12">
                                 <label for="password" class="font-weight-bold">Пароль</label>
-                                <input type="password" name="password" v-model="user.password" id="password" placeholder="Enter Password" class="form-control">
+                                <input type="password" name="password" v-model="user.password" id="password" placeholder="Пароль" class="form-control">
                             </div>
                             <div class="form-group col-12">
-                                <label for="password_confirmation" class="font-weight-bold">Повторить пароль</label>
-                                <input type="password_confirmation" name="password_confirmation" v-model="user.password_confirmation" id="password_confirmation" placeholder="Enter Password" class="form-control">
+                                <label for="password_confirmation" class="font-weight-bold">Еще раз пароль</label>
+                                <input type="password_confirmation" name="password_confirmation" v-model="user.password_confirmation" id="password_confirmation" placeholder="Пароль" class="form-control">
                             </div>
                             <div class="col-12 mb-2">
                                 <button type="submit" :disabled="processing" class="btn btn-primary btn-block">
