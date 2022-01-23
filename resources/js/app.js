@@ -8,7 +8,7 @@ require('./bootstrap');
 
 window.Vue = require('vue').default;
 
-import router from './router'
+import router from './store'
 import store from './store'
 
 const app = new Vue({

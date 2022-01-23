@@ -4,23 +4,23 @@
             <div class="col-12 col-md-6 offset-md-3">
                 <div class="card shadow sm">
                     <div class="card-body">
-                        <h1 class="text-center">Register</h1>
+                        <h1 class="text-center">Регистрация</h1>
                         <hr/>
                         <form action="javascript:void(0)" @submit="register" class="row" method="post">
                             <div class="form-group col-12">
-                                <label for="name" class="font-weight-bold">Name</label>
+                                <label for="name" class="font-weight-bold">Имя</label>
                                 <input type="text" name="name" v-model="user.name" id="name" placeholder="Enter name" class="form-control">
                             </div>
                             <div class="form-group col-12">
-                                <label for="email" class="font-weight-bold">Email</label>
+                                <label for="email" class="font-weight-bold">Почта</label>
                                 <input type="text" name="email" v-model="user.email" id="email" placeholder="Enter Email" class="form-control">
                             </div>
                             <div class="form-group col-12">
-                                <label for="password" class="font-weight-bold">Password</label>
+                                <label for="password" class="font-weight-bold">Пароль</label>
                                 <input type="password" name="password" v-model="user.password" id="password" placeholder="Enter Password" class="form-control">
                             </div>
                             <div class="form-group col-12">
-                                <label for="password_confirmation" class="font-weight-bold">Confirm Password</label>
+                                <label for="password_confirmation" class="font-weight-bold">Повторить пароль</label>
                                 <input type="password_confirmation" name="password_confirmation" v-model="user.password_confirmation" id="password_confirmation" placeholder="Enter Password" class="form-control">
                             </div>
                             <div class="col-12 mb-2">
@@ -29,7 +29,7 @@
                                 </button>
                             </div>
                             <div class="col-12 text-center">
-                                <label>Already have an account? <router-link :to="{name:'login'}">Login Now!</router-link></label>
+                                <label>У Вас есть аккаунт? <router-link :to="{name:'login'}">Войти!</router-link></label>
                             </div>
                         </form>
                     </div>

@@ -8,7 +8,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <router-link :to="{name:'dashboard'}" class="nav-link">Home <span class="sr-only">(current)</span></router-link>
+                        <router-link :to="{name:'dashboard'}" class="nav-link">Главная <span class="sr-only">(current)</span></router-link>
                     </li>
                 </ul>
                 <div class="ml-auto">
@@ -18,7 +18,7 @@
                                 {{ user.name }}
                             </a>
                             <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="javascript:void(0)" @click="logout">Logout</a>
+                                <a class="dropdown-item" href="javascript:void(0)" @click="logout">Выход</a>
                             </div>
                         </li>
                     </ul>
