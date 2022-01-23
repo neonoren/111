@@ -25,7 +25,7 @@
                             </div>
                             <div class="col-12 mb-2">
                                 <button type="submit" :disabled="processing" class="btn btn-primary btn-block">
-                                    {{ processing ? "Please wait" : "Register" }}
+                                    {{ processing ? "Проверяем..." : "Регистрация" }}
                                 </button>
                             </div>
                             <div class="col-12 text-center">

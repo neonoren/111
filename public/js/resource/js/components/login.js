@@ -980,7 +980,7 @@ var render = function () {
       _c("div", { staticClass: "col-12 col-md-6 offset-md-3" }, [
         _c("div", { staticClass: "card shadow sm" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h1", { staticClass: "text-center" }, [_vm._v("Login")]),
+            _c("h1", { staticClass: "text-center" }, [_vm._v("Пользователь")]),
             _vm._v(" "),
             _c("hr"),
             _vm._v(" "),
@@ -998,7 +998,7 @@ var render = function () {
                       staticClass: "font-weight-bold",
                       attrs: { for: "email" },
                     },
-                    [_vm._v("Email")]
+                    [_vm._v("Почта")]
                   ),
                   _vm._v(" "),
                   _c("input", {
@@ -1031,7 +1031,7 @@ var render = function () {
                       staticClass: "font-weight-bold",
                       attrs: { for: "password" },
                     },
-                    [_vm._v("Password")]
+                    [_vm._v("Пароль")]
                   ),
                   _vm._v(" "),
                   _c("input", {
@@ -1072,7 +1072,7 @@ var render = function () {
                     [
                       _vm._v(
                         "\n                                " +
-                          _vm._s(_vm.processing ? "Please wait" : "Login") +
+                          _vm._s(_vm.processing ? "Проверяем" : "Поехали") +
                           "\n                            "
                       ),
                     ]
@@ -1083,11 +1083,11 @@ var render = function () {
                   _c(
                     "label",
                     [
-                      _vm._v("Don't have an account? "),
+                      _vm._v("Есть аккаунт? А если найду? "),
                       _c(
                         "router-link",
                         { attrs: { to: { name: "register" } } },
-                        [_vm._v("Register Now!")]
+                        [_vm._v("Зарегистрировать!")]
                       ),
                     ],
                     1

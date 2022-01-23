@@ -1000,7 +1000,7 @@ var render = function () {
                     attrs: { to: { name: "dashboard" } },
                   },
                   [
-                    _vm._v("Home "),
+                    _vm._v("Главная "),
                     _c("span", { staticClass: "sr-only" }, [
                       _vm._v("(current)"),
                     ]),
@@ -1050,7 +1050,7 @@ var render = function () {
                         attrs: { href: "javascript:void(0)" },
                         on: { click: _vm.logout },
                       },
-                      [_vm._v("Logout")]
+                      [_vm._v("Выход")]
                     ),
                   ]
                 ),

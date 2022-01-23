@@ -131,7 +131,7 @@ var render = function () {
           _vm._v(" "),
           _c("div", { staticClass: "card-body" }, [
             _c("p", { staticClass: "mb-0" }, [
-              _vm._v("You are logged in as "),
+              _vm._v("Вы вошли как "),
               _c("b", [_vm._v(_vm._s(_vm.user.email))]),
             ]),
           ]),
@@ -146,7 +146,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-header" }, [
-      _c("h3", [_vm._v("Dashboard")]),
+      _c("h3", [_vm._v("Панель управления")]),
     ])
   },
 ]

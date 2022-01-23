@@ -17,11 +17,11 @@
                             </div>
                             <div class="col-12 mb-2">
                                 <button type="submit" :disabled="processing" @click="login" class="btn btn-primary btn-block">
-                                    {{ processing ? "Please wait" : "Login" }}
+                                    {{ processing ? "Проверяем" : "Поехали" }}
                                 </button>
                             </div>
                             <div class="col-12 text-center">
-                                <label>У Вас есть аккаунт? <router-link :to="{name:'register'}">Зарегистрировать!</router-link></label>
+                                <label>Есть аккаунт? А если найду? <router-link :to="{name:'register'}">Зарегистрировать!</router-link></label>
                             </div>
                         </form>
                     </div>
